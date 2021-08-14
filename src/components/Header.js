@@ -1,0 +1,40 @@
+// Import functions from components
+import React, { useState } from "react";
+import Nav from "./Nav";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState("Home");
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    //   if current page About render About.js
+    if (currentPage === "About") {
+      return <About />;
+    }
+    // if current page Portfolio render Portfolio.js
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    // if current page Contact render Contact.js
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
+    // Else render Resume.js
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+    </div>
+  );
+}

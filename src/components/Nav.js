@@ -7,7 +7,11 @@ export default function Nav({ currentPage, handlePageChange }) {
       <Container>
         <Nav className="me-auto">
           {/* Check if current page is "About", if true set current page to 'nav-link-active', else set to 'nav-link' */}
-          <Nav.Link href="#about" onClick={() => handlePageChange("About")}>
+          <Nav.Link
+            href="#about"
+            onClick={() => handlePageChange("About")}
+            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          >
             About
           </Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>

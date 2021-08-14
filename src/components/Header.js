@@ -1,6 +1,6 @@
 // Import functions from components
 import React, { useState } from "react";
-import Navigation from "./Navigation";
+import Navigation from "./Navigation/Navigation";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";

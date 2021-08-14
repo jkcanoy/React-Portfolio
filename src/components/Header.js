@@ -1,10 +1,10 @@
 // Import functions from components
 import React, { useState } from "react";
 import Nav from "./Nav";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Resume from "./Resume";
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("Home");

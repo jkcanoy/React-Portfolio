@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
 
 // function to change whether tab active or not depending on current page
 export default function Nav({ currentPage, handlePageChange }) {

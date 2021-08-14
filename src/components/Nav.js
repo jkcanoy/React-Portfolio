@@ -24,7 +24,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           >
             Portfolio
           </Nav.Link>
-          {/* Check if current page is "Portfolio", if true set current page to 'nav-link-active', else set to 'nav-link' */}
+          {/* Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link' */}
           <Nav.Link
             href="#contact"
             onClick={() => handlePageChange("Contact")}
@@ -34,7 +34,16 @@ export default function Nav({ currentPage, handlePageChange }) {
           >
             Contact
           </Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
+          {/* Check if current page is "Resume", if true set current page to 'nav-link-active', else set to 'nav-link' */}
+          <Nav.Link
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>

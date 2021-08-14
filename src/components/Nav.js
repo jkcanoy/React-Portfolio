@@ -24,7 +24,16 @@ export default function Nav({ currentPage, handlePageChange }) {
           >
             Portfolio
           </Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          {/* Check if current page is "Portfolio", if true set current page to 'nav-link-active', else set to 'nav-link' */}
+          <Nav.Link
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
+          </Nav.Link>
           <Nav.Link href="#resume">Resume</Nav.Link>
         </Nav>
       </Container>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <main className="container-fluid">
+    <section className="container-fluid">
       <h1>Resume</h1>
       <hr></hr>
       <div>
@@ -44,6 +44,6 @@ export default function Resume() {
           </a>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

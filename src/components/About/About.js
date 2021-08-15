@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <main className="container-fluid">
+    <section className="container-fluid">
       <h1>About Me</h1>
       <hr></hr>
       <p>
@@ -21,6 +21,6 @@ export default function About() {
         read books when the planets align and the moon is full, and do things
         outdoors like hiking and camping.
       </p>
-    </main>
+    </section>
   );
 }

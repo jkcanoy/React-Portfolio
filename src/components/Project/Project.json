@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name": "Happy Little Art Gallery",
+        "github": "https://github.com/jkcanoy/Art-Gallery",
+        "deployed": "https://happylittleartgallery072021.herokuapp.com/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/happylittleartgallery.png"
+    },
+    {
+        "id":2,
+        "name": "What Should I Eat?",
+        "github": "https://github.com/jkcanoy/WhatShouldIEat_Project1",
+        "deployed": "https://vinetteg.github.io/WhatShouldIEat_Project1/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/mockup_open.png"
+    },
+    {
+        "id":3,
+        "name": "Note Taker",
+        "github": "https://github.com/jkcanoy/Note-Taker",
+        "deployed": "https://guarded-sierra-15855.herokuapp.com/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/noteTaker.png"
+    },
+    {
+        "id":4,
+        "name": "Weather Dashboard",
+        "github": "https://github.com/jkcanoy/Weather-Dashboard",
+        "deployed": "https://jkcanoy.github.io/Weather-Dashboard/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/weatherDashScreenShot.png"
+    },
+    {
+        "id":5,
+        "name": "Coding Quiz",
+        "github": "https://github.com/jkcanoy/Coding-Quiz",
+        "deployed": "https://jkcanoy.github.io/Coding-Quiz/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/quizBegin.png"
+    },
+    {
+        "id":6,
+        "name": "Password Generator",
+        "github": "https://github.com/jkcanoy/Password-Generator",
+        "deployed": "https://jkcanoy.github.io/Password-Generator/",
+        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/PasswordGenScreenShot.png"
+    }
+]

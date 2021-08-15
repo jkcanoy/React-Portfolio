@@ -1,3 +1,11 @@
 .form-container {
   padding-top: 5rem;
 }
+
+button {
+  background-color: var(--prim) !important;
+}
+
+.form-div {
+  font-size: 24px;
+}

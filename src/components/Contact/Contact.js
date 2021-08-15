@@ -46,7 +46,7 @@ export default function Contact() {
       <h1 className="col">Contact Page</h1>
       <hr></hr>
       <form>
-        <div className="form-div">
+        <div className="form-div mt-3">
           <label htmlFor="name">Name:</label>
           <input
             className="form-control"
@@ -56,7 +56,7 @@ export default function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div className="form-div">
+        <div className="form-div mt-3">
           <label htmlFor="email">Email:</label>
           <input
             className="form-control"
@@ -66,7 +66,7 @@ export default function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div className="form-div">
+        <div className="form-div mt-3">
           <label htmlFor="message">Message:</label>
           <textarea
             className="form-control"
@@ -80,12 +80,11 @@ export default function Contact() {
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
-        <div className="mt-5"></div>
       </form>
-      <div className="mt-2 mb-2">
+      <div className="mt-3 mb-3">
         <button
           data-testid="button"
-          className="btn btn-outline-dark "
+          className="btn"
           type="submit"
           onSubmit={handleSubmit}
         >

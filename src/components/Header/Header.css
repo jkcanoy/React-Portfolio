@@ -1,3 +1,12 @@
+:root {
+  --prim: #3a91a1;
+  --sec: #ff7c24;
+}
+
+* {
+  color: var(--sec) !important;
+}
+
 body {
   min-height: 100vh;
   min-width: 100vw;
@@ -5,4 +14,8 @@ body {
 
 main {
   min-height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
 }

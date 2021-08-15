@@ -1,0 +1,52 @@
+:root {
+  --prim: #3a91a1;
+  --sec: #ff7c24;
+}
+
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.card {
+  background-color: var(--prim);
+  border-radius: 15px !important;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+}
+
+.card .img-container {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--prim);
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card .img-container img {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: var(--prim);
+}
+
+.card .card-body {
+  font-size: 18px;
+  background-color: var(--prim);
+  color: var(--sec);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.icon-img {
+  padding: 6px;
+}

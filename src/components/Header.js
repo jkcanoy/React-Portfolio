@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Navigation from "./Navigation/Navigation";
 import About from "./About/About";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume/Resume";
 

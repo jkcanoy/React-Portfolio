@@ -67,12 +67,13 @@ export default function Contact() {
         </div>
         <div className="mt-6">
           <label htmlFor="message">Message:</label>
-          <input
+          <textarea
             className="form-control"
             type="text"
             name="message"
             defaultValue={message}
             onBlur={handleChange}
+            rows="5"
           />
         </div>
         <div>

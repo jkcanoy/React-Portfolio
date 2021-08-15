@@ -1,6 +1,7 @@
 :root {
   --prim: #3a91a1;
   --sec: #ff7c24;
+  --tert: #0cecdd;
 }
 
 * {
@@ -18,4 +19,13 @@ main {
 
 a {
   text-decoration: none !important;
+}
+
+a:hover,
+button:hover {
+  color: #000000 !important;
+}
+
+button:hover {
+  background-color: var(--tert) !important;
 }

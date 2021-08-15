@@ -3,7 +3,7 @@ import "./Navigation.css";
 // function to change whether tab active or not depending on current page
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-sm">
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">

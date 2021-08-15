@@ -2,8 +2,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <main className="container-fluid">
       <h1>About Me</h1>
+      <hr></hr>
       <p>
         Hi, my name is Kyle and I am currently a CNA for the Burn/Pediatric ICU
         at Harborview Medical Center, and was in the process of starting a
@@ -20,6 +21,6 @@ export default function About() {
         read books when the planets align and the moon is full, and do things
         outdoors like hiking and camping.
       </p>
-    </div>
+    </main>
   );
 }

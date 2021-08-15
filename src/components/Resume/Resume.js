@@ -10,7 +10,7 @@ export default function Resume() {
         <div>
           <h2>Jefferson Kyle Canoy</h2>
         </div>
-        <div className="mt-5">
+        <div className="pt-5">
           Full Stack Web Developer with a background in psychology and medicine
           to provide a unique approach on how to ensure those with disabilities
           are able to access all aspects of a website or software. Earned a
@@ -20,7 +20,7 @@ export default function Resume() {
           adaptability, and willingness to rise to the occasion.
         </div>
 
-        <div className="d-flex flex-row mt-5">
+        <div className="d-flex flex-row pt-5">
           <div className="icon-img">
             <a href="www.linkedin.com/in/jeffersonkylecanoy">
               <img

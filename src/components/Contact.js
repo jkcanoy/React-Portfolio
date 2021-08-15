@@ -1,22 +1,85 @@
-import React from "react";
+import React, { useState } from "react";
+import validateEmail from "../utils/helpers";
 
 export default function Contact() {
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const { name, email, message } = formState;
+
+  function handleChange(event) {
+    //   Validate email address
+    if (event.target.name === "email") {
+      const isValid = validateEmail(event.target.value);
+
+      if (!isValid) {
+        setErrorMessage("Please enter a valid email address");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!event.target.value.length) {
+        setErrorMessage(`${event.target.name} is required`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+  }
+  function handleFormState(event) {
+    if (!errorMessage) {
+      setFormState({ ...formState, [event.target.name]: event.target.value });
+    }
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
   return (
-    <div>
+    <main className="container">
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+      <hr></hr>
+      <form>
+        <div className="mt-6">
+          <label htmlFor="name">Name:</label>
+          <input
+            className="form-control"
+            type="text"
+            name="name"
+            defaultValue={name}
+            onBlur={handleChange}
+          />
+        </div>
+        <div className="mt-6">
+          <label htmlFor="email">Email:</label>
+          <input
+            className="form-control"
+            type="text"
+            name="email"
+            defaultValue={email}
+            onBlur={handleChange}
+          />
+        </div>
+        <div className="mt-6">
+          <label htmlFor="message">Message:</label>
+          <input
+            className="form-control"
+            type="text"
+            name="message"
+            defaultValue={message}
+            onBlur={handleChange}
+          />
+        </div>
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+        <div className="mt-5"></div>
+      </form>
+    </main>
   );
 }

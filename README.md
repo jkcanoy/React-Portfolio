@@ -28,7 +28,7 @@ Personal portfolio created using React and Bootstrap
 
 OR
 
-1. Access the deployed GitHub Pages at [here](https://jkcanoy.github.io/react-portfolio/)
+1. Access the deployed GitHub Pages [here](https://jkcanoy.github.io/react-portfolio/)
 
 Demo
 

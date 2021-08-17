@@ -2,10 +2,14 @@ form {
   padding-top: 5rem;
 }
 
-button {
+.form-div {
+  font-size: 24px;
+}
+
+.contact-submit button {
   background-color: var(--prim) !important;
 }
 
-.form-div {
-  font-size: 24px;
+.contact-submit button:hover {
+  background-color: var(--tert) !important;
 }

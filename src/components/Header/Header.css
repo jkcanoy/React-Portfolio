@@ -25,7 +25,3 @@ a:hover,
 button:hover {
   color: #000000 !important;
 }
-
-button:hover {
-  background-color: var(--tert) !important;
-}

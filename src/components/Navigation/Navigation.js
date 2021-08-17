@@ -1,14 +1,20 @@
 import React from "react";
 import "./Navigation.css";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
 // function to change whether tab active or not depending on current page
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-sm">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a
-              // Check if current page is "About", if true set current page to 'nav-link-active', else set to 'nav-link'
+    <Navbar collapseOnSelect expand="lg">
+      <Container>
+        <Navbar.Brand className="me-auto" href="#about">
+          Jefferson Kyle Canoy
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link // Check if current page is "About", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#about"
               onClick={() => handlePageChange("About")}
               className={
@@ -16,29 +22,17 @@ export default function Navigation({ currentPage, handlePageChange }) {
               }
             >
               About
-            </a>
-            <a
-              // Check if current page is "Portfolio", if true set current page to 'nav-link-active', else set to 'nav-link'
-              href="#Portfolio"
+            </Nav.Link>
+            <Nav.Link // Check if current page is "Portfolio", if true set current page to 'nav-link-active', else set to 'nav-link'
+              href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
               Portfolio
-            </a>
-            <a
-              // Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link'
-              href="#blog"
-              onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
-            >
-              Contact
-            </a>
-            <a
-              // Check if current page is "Resume", if true set current page to 'nav-link-active', else set to 'nav-link'
+            </Nav.Link>
+            <Nav.Link // Check if current page is "Resume", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#contact"
               onClick={() => handlePageChange("Resume")}
               className={
@@ -46,10 +40,19 @@ export default function Navigation({ currentPage, handlePageChange }) {
               }
             >
               Resume
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
+            </Nav.Link>
+            <Nav.Link // Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link'
+              href="#blog"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }

@@ -81,7 +81,7 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       </form>
-      <div className="pt-3 pb-3">
+      <div className="pt-3 pb-3 contact-submit">
         <button
           data-testid="button"
           className="btn"

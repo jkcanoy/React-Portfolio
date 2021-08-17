@@ -1,8 +1,16 @@
 .resume-container {
   padding-top: 5rem;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .resume-download {
   padding: 1rem;
+}
+
+.resume-download button {
+  background-color: var(--prim) !important;
+}
+
+.resume-download button:hover {
+  background-color: var(--tert) !important;
 }

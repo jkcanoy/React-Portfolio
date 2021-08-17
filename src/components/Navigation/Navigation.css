@@ -1,6 +1,7 @@
 nav a {
-  color: #ebe4e4 !important;
-  font-size: 24px !important;
+  color: var(--quat) !important;
+  font-size: 36px !important;
+  font-family: "Nova Mono", monospace;
 }
 
 .nav-link.active {

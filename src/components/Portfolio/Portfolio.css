@@ -30,10 +30,11 @@
   width: 100%;
   padding: 25px;
   margin-bottom: 20px;
-  background-color: var(--prim);
+  background: linear-gradient(#161616, var(--prim));
 }
 
 .card .card-body {
+  font-family: "PT Sans", sans-serif !important;
   font-size: 18px;
   background-color: var(--prim);
   color: var(--sec);

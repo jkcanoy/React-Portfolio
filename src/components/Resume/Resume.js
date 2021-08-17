@@ -4,7 +4,7 @@ import "./Resume.css";
 export default function Resume() {
   return (
     <section>
-      <h1>Resume</h1>
+      <h1>RESUME</h1>
       <hr></hr>
       <div className="resume-container">
         <div>
@@ -32,7 +32,7 @@ export default function Resume() {
           <div className="icon-img">
             <a href="https://github.com/jkcanoy">
               <img
-                src="https://image.flaticon.com/icons/png/32/733/733609.png"
+                src="https://image.flaticon.com/icons/png/32/919/919847.png"
                 alt="GitHub logo"
               ></img>
             </a>

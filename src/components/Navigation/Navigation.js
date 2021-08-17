@@ -3,6 +3,7 @@ import "./Navigation.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import { NavLink } from "react-bootstrap";
 // function to change whether tab active or not depending on current page
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
@@ -14,7 +15,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          Jefferson Kyle Canoy
+          JEFFERSON KYLE CANOY
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,7 +27,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "About" ? "nav-link active" : "nav-link"
               }
             >
-              About
+              ABOUT
             </Nav.Link>
             <Nav.Link // Check if current page is "Portfolio", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#portfolio"
@@ -35,7 +36,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
-              Portfolio
+              PORTFOLIO
             </Nav.Link>
             <Nav.Link // Check if current page is "Resume", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#contact"
@@ -44,7 +45,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
-              Contact
+              CONTACT
             </Nav.Link>
             <Nav.Link // Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#resume"
@@ -53,7 +54,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                 currentPage === "Resume" ? "nav-link active" : "nav-link"
               }
             >
-              Resume
+              RESUME
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

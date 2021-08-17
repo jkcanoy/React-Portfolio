@@ -43,7 +43,7 @@ export default function Contact() {
 
   return (
     <section className="row form-container">
-      <h1 className="col">Contact Page</h1>
+      <h1 className="col">CONTACT</h1>
       <hr></hr>
       <form>
         <div className="form-div pt-3">

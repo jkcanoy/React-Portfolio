@@ -10,7 +10,7 @@ function Wrapper(props) {
 export default function Portfolio() {
   return (
     <main className="container-fluid">
-      <h1>Portfolio</h1>
+      <h1>PORTFOLIO</h1>
       <hr></hr>
 
       <Wrapper>

@@ -1,5 +1,10 @@
 nav a {
-  font-size: 18px !important;
+  color: #ebe4e4 !important;
+  font-size: 24px !important;
+}
+
+.nav-link.active {
+  color: var(--sec) !important;
 }
 
 .navbar-toggler {

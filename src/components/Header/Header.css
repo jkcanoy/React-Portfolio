@@ -1,16 +1,16 @@
 :root {
   --prim: #3a91a1;
-  --sec: #ff7c24;
+  --sec: #ff7c24ea;
   --tert: #0cecdd;
-}
-
-* {
-  color: var(--sec) !important;
 }
 
 body {
   min-height: 100vh;
   min-width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1602872250608-a17f7ba8933d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3334&q=80");
+  background-size: cover;
+  padding: 0 2rem 0 2rem;
+  color: var(--sec) !important;
 }
 
 main {
@@ -23,5 +23,5 @@ a {
 
 a:hover,
 button:hover {
-  color: #000000 !important;
+  color: var(--sec) !important;
 }

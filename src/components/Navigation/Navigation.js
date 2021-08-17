@@ -8,7 +8,12 @@ export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand className="me-auto" href="#about">
+        <Navbar.Brand
+          className="me-auto"
+          href="#about"
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
           Jefferson Kyle Canoy
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -34,21 +39,21 @@ export default function Navigation({ currentPage, handlePageChange }) {
             </Nav.Link>
             <Nav.Link // Check if current page is "Resume", if true set current page to 'nav-link-active', else set to 'nav-link'
               href="#contact"
-              onClick={() => handlePageChange("Resume")}
-              className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
-              }
-            >
-              Resume
-            </Nav.Link>
-            <Nav.Link // Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link'
-              href="#blog"
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
               Contact
+            </Nav.Link>
+            <Nav.Link // Check if current page is "Contact", if true set current page to 'nav-link-active', else set to 'nav-link'
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+            >
+              Resume
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

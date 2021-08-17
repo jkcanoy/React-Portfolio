@@ -30,6 +30,7 @@ export default function About() {
           and do things outdoors like hiking and camping.
         </p>
       </div>
+      <br></br>
     </section>
   );
 }

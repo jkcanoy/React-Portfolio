@@ -91,6 +91,7 @@ export default function Contact() {
           Submit
         </button>
       </div>
+      <br></br>
     </section>
   );
 }

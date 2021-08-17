@@ -31,7 +31,7 @@ export default function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main className="container-fluid">
+    <main className="container">
       {/* We are passing the currentPage from state and the function to update it */}
       <Navigation
         currentPage={currentPage}

@@ -16,7 +16,7 @@ export default function Footer() {
           alt="GitHub"
         ></img>
       </a>
-      <a href="">
+      <a href="https://jkcanoy.github.io/react-portfolio/">
         <img
           src="https://image.flaticon.com/icons/png/32/1946/1946433.png"
           alt="Portfolio Home"

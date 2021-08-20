@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="d-flex">
         <Header />
 

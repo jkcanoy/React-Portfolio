@@ -14,20 +14,27 @@ export default function About() {
           alt="Jefferson Kyle Canoy"
         ></img>
         <p className="pt-4">
-          My name is Kyle and I am currently a CNA for the Burn/Pediatric ICU at
-          Harborview Medical Center, and was in the process of starting a career
-          in medicine with a hope of becoming a physician.
+          Full Stack Web Developer with a background in psychology and medicine
+          providing a unique approach on how to ensure those with disabilities
+          are able to access all aspects of a website or software.
         </p>
         <p className="pt-4">
-          However I am putting that on pause and exploring a career in web
-          development. I am currently in the UW Coding Bootcamp in the hopes of
-          becoming a web developer. I have knowledge in HTML, CSS, JS, Node,
-          Express, MySQL, MongoDB, and React
+          Earned a certificate in Full Stack Web Development from the University
+          of Washington’s Coding Bootcamp, enhancing my skills in responsive web
+          design including JavaScript, React.js, Nodes.js, MongoDB, and GraphQL.
         </p>
         <p className="pt-4">
-          In my spare time I like to play video games, watch movies,
-          occasionally read books when the planets align and the moon is full,
-          and do things outdoors like hiking and camping.
+          Using organization skills honed from my job as a Certified Nursing
+          Assistant at Harborview Medical Center’s Burn/Pediatric ICU, I helped
+          manage and oversee various administrative aspects in a recent project,
+          including creation of the MongoAtlasDB, deployment to Heroku, and
+          creation of README.md, and project presentation.
+        </p>
+        <p className="pt-4">
+          As a flexible problem-solver with a passion for developing
+          high-quality applications with a focus on accessibility, combined with
+          strengths in teamwork, adaptability, and willingness to rise to the
+          occasion, I would make a strong addition to any team/organization.
         </p>
       </div>
       <br></br>

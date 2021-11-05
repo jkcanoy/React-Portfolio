@@ -45,6 +45,16 @@ export default function Contact() {
     <section className="row form-container">
       <h1 className="col">CONTACT</h1>
       <hr></hr>
+      <p className="infoURL">
+        <p className="info">Email:</p> jkcanoy27@gmail.com
+      </p>
+      <p className="infoURL">
+        <p className="info">GitHub:</p> https://github.com/jkcanoy
+      </p>
+      <p className="infoURL">
+        <p className="info">LinkedIn:</p>{" "}
+        https://linkedin.com/in/jeffersonkylecanoy
+      </p>
       <form>
         <div className="form-div pt-3">
           <label htmlFor="name">Name:</label>

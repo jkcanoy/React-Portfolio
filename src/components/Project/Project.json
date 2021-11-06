@@ -1,6 +1,13 @@
 [
     {
         "id":1,
+        "name": "Good Enuff",
+        "github": "https://github.com/jkcanoy/Good-Enough",
+        "deployed": "https://good-enuff.herokuapp.com/dashboard",
+        "image": "https://github.com/jkcanoy/Good-Enough/blob/main/client/public/screenShot.png?raw=true"
+    },
+    {
+        "id":1,
         "name": "Happy Little Art Gallery",
         "github": "https://github.com/jkcanoy/Art-Gallery",
         "deployed": "https://happylittleartgallery072021.herokuapp.com/",
@@ -14,31 +21,24 @@
         "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/mockup_open.png?raw=true"
     },
     {
-        "id":3,
+        "id":4,
+        "name": "Book Search Engine",
+        "github": "https://github.com/jkcanoy/Book-Search-Engine",
+        "deployed": "https://book-search-engine-jkcanoy.herokuapp.com/",
+        "image": "https://github.com/jkcanoy/Book-Search-Engine/blob/main/client/public/savedBooks.png?raw=true"
+    },
+    {
+        "id":5,
+        "name": "Team Profile Generator",
+        "github": "https://github.com/jkcanoy/Team-Profile-Generator",
+        "deployed": "https://github.com/jkcanoy/Team-Profile-Generator",
+        "image": "https://github.com/jkcanoy/Team-Profile-Generator/blob/main/images/screenShot.png?raw=true"
+    },
+    {
+        "id":6,
         "name": "Note Taker",
         "github": "https://github.com/jkcanoy/Note-Taker",
         "deployed": "https://guarded-sierra-15855.herokuapp.com/",
         "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/noteTaker.png?raw=true"
-    },
-    {
-        "id":4,
-        "name": "Weather Dashboard",
-        "github": "https://github.com/jkcanoy/Weather-Dashboard",
-        "deployed": "https://jkcanoy.github.io/Weather-Dashboard/",
-        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/weatherDashScreenShot.png?raw=true"
-    },
-    {
-        "id":5,
-        "name": "Coding Quiz",
-        "github": "https://github.com/jkcanoy/Coding-Quiz",
-        "deployed": "https://jkcanoy.github.io/Coding-Quiz/",
-        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/quizBegin.png?raw=true"
-    },
-    {
-        "id":6,
-        "name": "Password Generator",
-        "github": "https://github.com/jkcanoy/Password-Generator",
-        "deployed": "https://jkcanoy.github.io/Password-Generator/",
-        "image": "https://github.com/jkcanoy/Portfolio/blob/main/assets/images/workScreenShots/PasswordGenScreenShot.png?raw=true"
     }
 ]

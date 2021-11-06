@@ -34,7 +34,7 @@ Demo
 
 The following screenshot shows the web applications appearance
 
-![Screenshot of the application's homepage](./public/portfolioScreen.png)
+![Screenshot of the application's homepage](./public/portfolioScreenShot.png)
 
 ## License
 
